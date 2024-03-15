@@ -40,13 +40,17 @@ a {
 }
 
 /* Contact details */
+.contacts {
+  font-style: normal;
+}
 .contact-details {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-style: normal;
   text-decoration: none;
+
+  color: #434455;
 }
 .contact-details:hover,
 .contact-details:focus {
@@ -65,6 +69,7 @@ a {
   color: #fff;
 }
 .order-service-button {
+  font-family: 'Roboto', sans-serif;
   border: none;
   background-color: #4d5ae5;
   color: #fff;
@@ -82,7 +87,7 @@ a {
 }
 /* Advantages section */
 .advantages-section-title {
-  display: none;
+  visibility: hidden;
 }
 .advantages-list-item {
   font-weight: 500;
@@ -104,8 +109,9 @@ a {
   background-color: #fff;
 }
 .team-list-title {
+  text-transform: capitalize;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -124,9 +130,11 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
 }
+/* Portfolio */
 .portfolio-title {
+  text-transform: capitalize;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -149,6 +157,7 @@ a {
   background: #2e2f42;
 }
 .footer-logo {
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
